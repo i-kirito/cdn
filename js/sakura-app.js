@@ -1999,7 +1999,7 @@ function loadBotui() {
         if (mashiro_global.variables.has_bot_ui) {
             bot_ui_ini()
         } else {
-            $.getScript('http://www.ikirito.xyz/wp-content/themes/Sakura/botui-master/build/botui.js',
+            $.getScript(' https://cdn.jsdelivr.net/gh/i-kirito/botui@1.0/js/botui.js ',
                 //上方JS中的'BotUI回复配置'修改为你自己的BotUI回复配置，其他不变
                 function() {
                     bot_ui_ini();
