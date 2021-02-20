@@ -2,7 +2,8 @@
  * Sakura theme application bundle
  * @author Mashiro
  * @url https://2heng.xin
- * @date 2019.8.3
+ * @date 2021.2.20
+ * @version 1.1.2
  */
 mashiro_global.variables = new function () {
     this.has_hls = false;
@@ -1999,7 +2000,7 @@ function loadBotui() {
         if (mashiro_global.variables.has_bot_ui) {
             bot_ui_ini()
         } else {
-            $.getScript('https://cdn.jsdelivr.net/gh/i-kirito/botui@1.0/js/botui.js',
+            $.getScript('https://cdn.jsdelivr.net/gh/i-kirito/botui@1.1/js/botui.js',
                 //上方JS中的'BotUI回复配置'修改为你自己的BotUI回复配置，其他不变
                 function() {
                     bot_ui_ini();
